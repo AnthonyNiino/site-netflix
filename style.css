@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(147, 147, 147);
+    background-image: url(imagens/netflix-wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.875);
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+header > img {
+    display: block;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+main, section {
+    background-color: white;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.404);
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #b1060f;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+img.cheia {
+    width: 100%;
+}
+
+img.direita {
+    float: right;
+    margin-left: 15px;
+}
+
+strong {
+    color: #b1060f;
+}
